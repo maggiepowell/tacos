@@ -10,5 +10,10 @@ CREATE TABLE tacos (
       primary key(id)
 );
 
+INSERT INTO tacos (burger_name, devoured)
+
+VALUES
+("Carnitas", false), ("Al Pastor", false), ("Carne Asada", false);
+
 
 SELECT * FROM tacos;
