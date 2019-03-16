@@ -20,6 +20,7 @@ connection.connect(function(err) {
     return;
   }
   console.log("connected as id " + connection.threadId);
+  console.log("connected on port: " + connection.port);
 });
 
 // Export connection for our ORM to use.
